@@ -1,0 +1,23 @@
+:root {
+  --bg: #0c0c0e;
+  --surface: #141416;
+  --surface2: #1c1c1f;
+  --border: #2a2a2e;
+  --border2: #3a3a3f;
+  --text: #f0ede8;
+  --text2: #8a8790;
+  --text3: #5a5760;
+  --accent: #d4a853;
+  --accent2: #b8903f;
+  --accent-dim: rgba(212, 168, 83, 0.08);
+  --accent-dim2: rgba(212, 168, 83, 0.15);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  min-height: 100vh;
+}
